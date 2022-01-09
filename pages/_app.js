@@ -1,6 +1,7 @@
 // styles
 // global
 import '../styles/globals.css'
+import '../styles/index.css'
 
 // article
 import '../styles/components/article/article.css'
