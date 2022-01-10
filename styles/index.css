@@ -3,13 +3,13 @@
 
   --gradient-text: linear-gradient(
     89.27deg,
-    rgba(186, 109, 238, 1) 1.84%,
-    rgba(251, 255, 0, 1) 80.26%
+    var(--color-purple) 1.84%,
+    var(--color-yellow) 80.26%
   );
   --gradient-bar: linear-gradient(
     103.22deg,
-    rgba(186, 109, 238, 1) -13.84%,
-    rgba(251, 255, 0, 1) 80.26%
+    var(--color-purple) -13.84%,
+    var(--color-yellow) 80.26%
   );
 
   --radial-gradient-color1: rgba(0, 40, 83, 1);
@@ -20,4 +20,14 @@
   --color-blog: rgba(4, 44, 84, 1);
   --color-text: rgba(129, 175, 221, 1);
   --color-subtext: rgba(255, 138, 241, 1);
+
+  --color-white: rgba(255, 255, 255, 1);
+  --color-yellow: rgba(251, 255, 0, 1);
+  --color-purple: rgba(186, 109, 238, 1);
+  --color-black: rgba(50, 50, 50, 1);
+
+  --box-shadow1: 0 0 5px rgba(0, 0, 0, 0.2);
+
+  --text-shadow1: -4px 2px 0 var(--radial-gradient-color1),
+    -3px 4px 0 var(--color-yellow);
 }
