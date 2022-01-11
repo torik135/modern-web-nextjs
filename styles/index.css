@@ -27,6 +27,8 @@
   --color-black: rgba(50, 50, 50, 1);
 
   --box-shadow1: 0 0 5px rgba(0, 0, 0, 0.2);
+  --box-shadow2: 4px 1px 1px var(--color-yellow);
+  --box-shadow-bottom: 0 2px 1px var(--color-yellow);
 
   --text-shadow1: -4px 2px 0 var(--radial-gradient-color1),
     -3px 4px 0 var(--color-yellow);
