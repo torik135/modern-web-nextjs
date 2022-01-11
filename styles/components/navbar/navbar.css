@@ -49,6 +49,14 @@
   cursor: pointer;
 }
 
+.gpt3__navbar-links_container p:hover {
+  box-shadow: var(--box-shadow-bottom);
+}
+
+.gpt3__navbar-sign p:hover {
+  box-shadow: var(--box-shadow-bottom);
+}
+
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
   padding: 0.5rem 1rem;
