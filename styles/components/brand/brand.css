@@ -27,6 +27,7 @@
 .gpt3__brand-image img {
   width: 50px;
   filter: saturate(0.1) hue-rotate(253deg);
+  transition: transform 0.3s ease-in;
 }
 
 .gpt3__brand-image img:hover {
