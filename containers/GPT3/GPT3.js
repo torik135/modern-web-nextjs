@@ -3,15 +3,20 @@ import Feature from '../../components/feature/Feature'
 const title1 = 'What is GPT-3'
 const text1 = 'We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.'
 
-const title2 = 'Chatbots'
-const text2 = 'We so opinion friends me message as delight. Whole front do of plate heard oh ought.'
-
-const title3 = 'Knowledgebase'
-const text3 = 'At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b'
-
-const title4 = 'Education'
-const text4 = 'At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b'
-
+const featureData = [
+    {
+        title: 'Chatbots',
+        text: 'We so opinion friends me message as delight. Whole front do of plate heard oh ought.'
+    },
+    {
+        title: 'Knowledgebase',
+        text: 'At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b'
+    },
+    {
+        title: 'Education',
+        text: 'At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by. As put impossible own apartments b'
+    }
+]
 
 const GPT3 = () => {
     return (
@@ -26,9 +31,9 @@ const GPT3 = () => {
             </div>
 
             <div className="gpt3__whatgpt3-container">
-                <Feature title={title2} text={text2} />
-                <Feature title={title3} text={text3} />
-                <Feature title={title4} text={text4} />
+                {featureData.map((item, index) => (
+                    <Feature title={item.title} text={item.text} key={item.title + index} />
+                ))}
             </div>
         </div>
     )
