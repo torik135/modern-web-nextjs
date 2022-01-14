@@ -25,7 +25,7 @@
 
 .gpt3__features-heading p {
   color: var(--color-yellow);
-  text-align: right;
+  text-align: left;
 }
 
 .gpt3__features-container {
