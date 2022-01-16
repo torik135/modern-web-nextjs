@@ -1,4 +1,4 @@
-import Feature from '../../components/feature/Feature'
+import { Feature } from '../../components'
 
 const featuresData = [
     {
